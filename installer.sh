@@ -1,6 +1,6 @@
 #!/bin/sh
 
-##setup command=wget https://raw.githubusercontent.com/tarekzoka/oscamemu/main/installer.sh -O - | /bin/sh
+##setup command=wget https://raw.githubusercontent.com/tarekzoka/oscamemu/raw/main/installer.sh -O - | /bin/sh
 #
 echo " download and install oscamemu emu "
 version=11.704
