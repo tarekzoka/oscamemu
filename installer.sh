@@ -1,11 +1,11 @@
 #!/bin/sh
 
-##setup command=wget echo wget https://raw.githubusercontent.com/tarekzoka/oscamemu/main/installer.sh -O - | /bin/sh
+##setup command=wget https://raw.githubusercontent.com/tarekzoka/oscamemu/main/installer.sh -O - | /bin/sh
 #
 echo " download and install oscamemu emu "
 version=11.704
 OPKGINSTALL=opkg install --force-overwrite
-MY_URL="https://raw.githubusercontent.com/tarekzoka/oscamemu/main"
+MY_URL="https://raw.githubusercontent.com/emilnabil/oscam/main"
 MY_IPK="enigma2-plugin-softcams-oscam_11.704-emu-r798_all.ipk"
 MY_DEB="enigma2-plugin-softcams-oscam_11.704-emu-r798_all.deb"
 ##############################################################################
@@ -39,7 +39,7 @@ rm -f /tmp/$MY_DEB
 	echo ">>>>   SUCCESSFULLY INSTALLED <<<<"
 fi
 		echo "********************************************************************************"
-echo "   UPLOADED BY  >>>>  TAREK__ZOK "   
+echo "   UPLOADED BY  >>>>   TAREK_TT "   
 sleep 4;
 	echo '========================================================================================================================='
 ###################                                                                                                                  
@@ -48,6 +48,7 @@ echo "**************************************************************************
 wait
 killall -9 enigma2
 exit 0
+
 
 
 
