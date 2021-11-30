@@ -2,7 +2,7 @@
 
 ##setup command=wget echo wget https://raw.githubusercontent.com/tarekzoka/oscamemu/main/installer.sh -O - | /bin/sh
 #
-echo " download and install oscam emu "
+echo " download and install oscamemu emu "
 version=11.704
 OPKGINSTALL=opkg install --force-overwrite
 MY_URL="https://raw.githubusercontent.com/tarekzoka/oscamemu/main"
